@@ -2,7 +2,7 @@ import random
 
 def game_loop():
     words = ["apple", "banana"]
-    chosen_word = words[0]
+    chosen_word = random.choice(words)
     hidden = ["_"]*len(chosen_word)
     health = 5
     won = False
